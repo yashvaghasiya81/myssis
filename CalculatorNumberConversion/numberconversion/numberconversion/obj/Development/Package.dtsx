@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="2/6/2026 11:28:19 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="YASH_VAGHASIYA"
+  DTS:CreatorName="YASH_VAGHASIYA\yashv"
+  DTS:DTSID="{615A6147-385B-4E45-8D67-08133D31BEDA}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="17.0.1010.2"
+  DTS:LocaleID="16393"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{8051D511-763E-4465-8995-1B1A551386FC}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[HTTP Connection Manager]"
+      DTS:CreationName="HTTP"
+      DTS:DTSID="{B82BF8C2-F4ED-441D-8730-C3BAD3D0CE27}"
+      DTS:ObjectName="HTTP Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="https://www.dataaccess.com/webservicesserver/NumberConversion.wso">
+          <DTS:HttpConnection
+            DTS:ServerURL="https://www.dataaccess.com/webservicesserver/NumberConversion.wso">
+            <DTS:Property
+              DTS:Name="ServerPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABUR0yc2ppLHcIPfeQ4quexsV7YoT3AwVad5X8bS1WGDgAAAAAOgAAAAAIAACAAAABKhe/uFIl2Mn3nr94s/OQe9EY4F6X/Boaskjs1ozm2bRAAAADZHfHLTpmrPsiASS8iyuGgQAAAAEmNaI6kUy55lDGVNtXfjiR1lgVODGC1ePKg51VW/+m0TcYekLO8PFUXIccC/IlGzWNEffiQQjk88R7Gv3WluRM</DTS:Property>
+            <DTS:Property
+              DTS:Name="ProxyPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAMsWfduAotuBNskfk9IM0wqfO47A8RR/vsdEhoSq7DkQAAAAAOgAAAAAIAACAAAACxMu+bxdNDrDzv1m9sJxY+k2rjXC+tbziUdURTrJtPGRAAAADmvugDIujoN13NiR8/wQlhQAAAAP5+MF6g3UY5haHCauoZHYRJoEy++Zsov3AYosztKbdWhh3reSb+G4MZrk4T4kD3olRX/88f7tbcWnkXB9fu8Us</DTS:Property>
+          </DTS:HttpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[HTTP Connection Manager 1]"
+      DTS:CreationName="HTTP"
+      DTS:DTSID="{D0D15349-2FF9-46CA-BEBC-A52F068B7E3D}"
+      DTS:ObjectName="HTTP Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="https://www.dataaccess.com/webservicesserver/NumberConversion.wso">
+          <DTS:HttpConnection
+            DTS:ServerURL="https://www.dataaccess.com/webservicesserver/NumberConversion.wso">
+            <DTS:Property
+              DTS:Name="ServerPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADW56HOEBKdpUr7iaLzskSZn/Xxc0v4Co1pWsbvs4CV7gAAAAAOgAAAAAIAACAAAAAHjnXwhSAqLaO2Q+oWpqdHwYYGutOAHdRXHppGWz3B2RAAAAAPC0p9W5yPZLIljb7vk0+rQAAAAE53ksmqyko1NnI4kvlRg2GLwvYYVRVaCfgzKQnq3hWYJHuTnFIlNBwytWAQ+OjXogFsNIg5UlhWDGOohziyz1g</DTS:Property>
+            <DTS:Property
+              DTS:Name="ProxyPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADdgDXk+RTH/1Cl7yrYDUoZOvHaAX0bwj/DmATcUOGrtAAAAAAOgAAAAAIAACAAAADGV7Xs/aVxr4DRFR+D76y0wiif1J1wRJ37TYvW2T260RAAAACImx8Fi5SqxCF72+j4osvOQAAAACLEuzJGg5iGV179SA6Kk2OKbpkUsYyB7SjwAH9spLfZ167K6TFR5XM2wcIGs8O+cWEUphDy4PYO2B945kh1cPk</DTS:Property>
+          </DTS:HttpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[HTTP Connection Manager 2]"
+      DTS:CreationName="HTTP"
+      DTS:DTSID="{2EDA86ED-1251-4FDE-BD36-08DD040E1C85}"
+      DTS:ObjectName="HTTP Connection Manager 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="https://www.dataaccess.com/webservicesserver/NumberConversion.wso">
+          <DTS:HttpConnection
+            DTS:ServerURL="https://www.dataaccess.com/webservicesserver/NumberConversion.wso">
+            <DTS:Property
+              DTS:Name="ServerPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACtBVqKiJLtUtcJQX+/8cBYajBwLoC+DaPnNr88/Ms2oQAAAAAOgAAAAAIAACAAAABjzeKNchSo+NNoKUbm8U5s+N6TvyK0WB4+l9oXoLbOMxAAAAD+PS4orVehSAHJCE6PmoN9QAAAAD35V4pKwelPe2s8jb76zhQ2MexADoVmparfMBKos4ysdYZGgK7AKyeUFLBWvbJx3YqUDMTWOZI9OY8PRyJRdNQ</DTS:Property>
+            <DTS:Property
+              DTS:Name="ProxyPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACWDlBg99bpN3Ok/nd9MpmCeHjxnxilZTn/s1ux3MhtTgAAAAAOgAAAAAIAACAAAAAyVG++wW8hVmtaNpl7qdE0c/pvmJIvTvEMgEu1AYvkMRAAAADWEMP+MrR4nKFeN2MJOl2JQAAAAJ8LooVrGfIzoO1ZPraPL/a5Q6ciSwxeAjjbaiVJq5G+o0ydStkgu8qh4IgJq9q+KeXiM9hZufrAMkrD8DlD958</DTS:Property>
+          </DTS:HttpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{81DD8CF9-35B3-47E5-9F11-7A6639E16D41}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="input">
+      <DTS:VariableValue
+        DTS:DataType="21">4571</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{429336D6-FADE-4632-B565-86FB3A0CB6E1}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="output">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Web Service Task"
+      DTS:CreationName="Microsoft.WebServiceTask"
+      DTS:Description="Web Service Task"
+      DTS:DTSID="{E7886370-D44D-408E-AD58-481A0297A195}"
+      DTS:ExecutableType="Microsoft.WebServiceTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Web Service Task"
+      DTS:TaskContact="Web Service Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <WSTask:WebServiceTaskData
+          WSTask:ConnectionName="{2EDA86ED-1251-4FDE-BD36-08DD040E1C85}"
+          WSTask:Service="NumberConversion"
+          WSTask:WSDLFile="D:\myssil\CalculatorNumberConversion\NumberConversion.wsdl"
+          WSTask:OverwriteWSDLFile="True"
+          WSTask:OutputType="Variable"
+          WSTask:OutputLocation="User::output" xmlns:WSTask="www.microsoft.com/sqlserver/dts/tasks/webservicetask">
+          <WSTask:MethodInfo
+            WSTask:MethodName="NumberToWords"
+            WSTask:MessageName="">
+            <WSTask:Documentation>Returns the word corresponding to the positive number passed as parameter. Limited to quadrillions.</WSTask:Documentation>
+            <WSTask:ParamInfo
+              WSTask:Name="ubiNum"
+              WSTask:Datatype="unsignedLong"
+              WSTask:ParamType="Variable"
+              WSTask:SeqNumber="0">
+              <WSTask:VariableValue>User::input</WSTask:VariableValue>
+            </WSTask:ParamInfo>
+          </WSTask:MethodInfo>
+        </WSTask:WebServiceTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\XML Task"
+      DTS:CreationName="Microsoft.XMLTask"
+      DTS:Description="XML Task"
+      DTS:DTSID="{8451D327-CB5F-45A3-B7F5-DF80AFD0BB5D}"
+      DTS:ExecutableType="Microsoft.XMLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="XML Task"
+      DTS:TaskContact="XML Task; Microsoft Corporation; SQL Server 2025; � 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <XMLTaskData
+          OperationType="XPATH"
+          SourceType="Variable"
+          Source="User::output"
+          SecondOperand="string/text()"
+          DestinationType="Variable"
+          Destination="User::output"
+          OverwriteDestination="True"
+          PutResultInOneNode="True" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{4C5DF1E0-4D83-4308-AE91-E780835958CB}"
+      DTS:From="Package\Web Service Task"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\XML Task" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Web Service Task"
+          TopLeft="282.999986477197,207.966665467355" />
+        <NodeLayout
+          Size="124.8,41.6"
+          Id="Package\XML Task"
+          TopLeft="292.499984018505,306.799997866551" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="364.199986477197,249.566665467355">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9.30000245869144,57.2333323991961"
+              Start="0,0"
+              End="-9.30000245869144,49.7333323991961">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.616666199598" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.616666199598"
+                    Point2="0,28.616666199598"
+                    Point3="-4,28.616666199598" />
+                  <mssgle:LineSegment
+                    End="-5.30000245869144,28.616666199598" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.30000245869144,28.616666199598"
+                    Point2="-9.30000245869144,28.616666199598"
+                    Point3="-9.30000245869144,32.616666199598" />
+                  <mssgle:LineSegment
+                    End="-9.30000245869144,49.7333323991961" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
