@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
-    <Name>numberconversion</Name>
-    <LastWriteTime>2026-02-06T08:47:34.0522812Z</LastWriteTime>
+    <Name>mailTask</Name>
+    <LastWriteTime>2026-02-07T14:48:57.824604Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Package.dtsx</Name>
-      <LastWriteTime>2026-02-06T08:52:52.4437251Z</LastWriteTime>
+      <LastWriteTime>2026-02-07T14:48:57.7420361Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

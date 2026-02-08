@@ -9,10 +9,11 @@
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="17.0.1010.2"
   DTS:LocaleID="16393"
+  DTS:MaxErrorCount="10"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="15"
-  DTS:VersionGUID="{8051D511-763E-4465-8995-1B1A551386FC}">
+  DTS:VersionBuild="23"
+  DTS:VersionGUID="{6DCB135F-C4D2-435C-96B2-BC71F4AE6F0D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,11 +30,11 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC1lj30MOnSjanqOEE3vXuculXME5uokoC3Dm6zdUc7/wAAAAAOgAAAAAIAACAAAADCbbswqsszM8Oc+T9+jAXER1cI60AVRDLbrH/C0zcs7hAAAAClslR6/QO82Cy3Gd7na5I5QAAAAAB9g1sk4FeLBx8TYhwtvfTFPLuQCTJQ/HAWW3kMhq/gw29md+TC5V4Zgi1em3v692CH4RxpKmsNWfeW4OZhXIQ</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACYiEdfHOUvf7V6UCrlyvEy7cKiszOzQ+Kt6OHAXU663QAAAAAOgAAAAAIAACAAAAA7RWVIIN9hd2DjA4SvhyUZyfPJeF/PP4HeX5fkLcXZjRAAAAARIQvDiaHLhyvWPWjy11AUQAAAAByMfkGqP1rITboDkd2uOL0VLwTHYv3zCfqdlHzca7o9CcE2sP7j3Wa1xJR8kpMlw3QNB1NzCD8bMt4CsyMcjNg</DTS:Property>
             <DTS:Property
               DTS:Name="ProxyPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACZyMGUsw3mQjUh11a+bRAU12QW0G7UVY0mPbVsGdFRcAAAAAAOgAAAAAIAACAAAAB0kn3VySg+zT/GdJ/2YDS1IZdDYL/kwSRjWeMg7MsuPRAAAAAQUSU8LBWjfrIRYRdvRBjPQAAAAFKZu/V4bTtaoR9kVsPEqwpwWiBkSrNyrFgMSYE03cp8G7TZsqGfjG/Eh0TYrKBELbSEdJ1gA/hgONz12CKD6/s</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAFveEFpv+Dgh4GYdq6jAB9YwHBSoCkwl+9TnPPNEmhlQAAAAAOgAAAAAIAACAAAADrR0f7IDYpteq7oMNNQUvgz6ZKkJrV2WGMgP9TXTTz8BAAAAAZLtJwPncl3YOWk0ApA1iMQAAAAK9HTy82jU88Trgi9vgjg/cPw9wbmVEfBiojHFIK4Tz7BnsQysv11JaSoVuKElQmorBAzXFtByU07Vc2m5D4vIg</DTS:Property>
           </DTS:HttpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -51,11 +52,11 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACas58UTa1Tkzg+eQtp3f3nZSG7utM8vCsMQ4KL7sYwTgAAAAAOgAAAAAIAACAAAADuouXSiIVn3gmRcRomX2RmGMeGXIUXgSbtyUGvE0/7ARAAAABm3E2qqg/xzSVtWJ0IWCAdQAAAAPk8efgqES+a9WPzczP7r5dIzMK+VJWzZr6679vmOF4w6zdzWB46pkpsq3q4uFhcLn3yJsrc7qd/Sx4RGw0SKdU</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADM8kK8yidZ7ZcJK6NgGJFnL0L2FMrgIr7Fc4mjVSbZgQAAAAAOgAAAAAIAACAAAAAQTLNpkWQmqNe1oUC99IUCVYPZZ+GWGGzIP9baAeHiLBAAAAAJlhYlBXQ6i8vpPOIKhJZHQAAAAIyPt8PKBmrv+HT0caLkTiNe7btAsIY+mfRvMU3KzMO67mKdtAZLr2Ke4Nn6mZoCJi6IU8bug0cUcXiTtFfrIvE</DTS:Property>
             <DTS:Property
               DTS:Name="ProxyPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACFCN92nDK9EJB1F2EWV1jXT4h85jzYvZ5SdoPGoZ8VlwAAAAAOgAAAAAIAACAAAAAhIk/FuLGTNeGmMjdfmSURy08lGtx9zuAh1MRlttHldRAAAAAfZUgWBFWpC7xmso/zPOkxQAAAAD7zPQa51KWDSmaAp3xGpllVIv1NSGBlPzUap15fq94RkgAciIUqyljOyv+9LXQ6+dDXYihUfheUOHGur8hm8KU</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABSzR05WLAK2pRmuXnYLdKH6OvFx4F92GJlf15RgvRDzAAAAAAOgAAAAAIAACAAAABYLxQ4lfqAXz+fViuOdOgroMmFCTcrAMA5tU1p2EvuNhAAAADYBtyo4JuJUql95O7wcSz5QAAAAFQORwzQDacz8yUcxN+1HvhKB0Jt5RolHh/aeOcbpCRKKP3972AtXD9vkdH0CLbzSPC928adoKJHmn1uPTjl95k</DTS:Property>
           </DTS:HttpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -73,11 +74,33 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAuLwfrJZxYcsNxC8AnNtOW9bV8S3wOUeQXCNeP8C1sMAAAAAAOgAAAAAIAACAAAAC2wuar01c+z7m2I9zuSCJ84VPmHFNr/aDg8fJK91EqIRAAAADlnXc1tlPyPZTb7U/NcEvlQAAAAKJ6F678s9QoJeCnwX3ep6ZOGJ73FdmQ55LMrByQYYg1GA4Hzsar2sFE6PfZbUdiV9TMIq0mOUDV888phDU6eKE</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABSrlStB/OKJT+QHlnMJEgU2mYk3rnvNxwdLSKHzQ4RPAAAAAAOgAAAAAIAACAAAACgzrOzLkgClDFoTtaQLGf+Cmw8M4Xcj414hD8EiyeRRRAAAABVxY/lIZRroo5u56zgSxmNQAAAAGDLdFAPZZqHauzpOkBy3BaUqBaA50HSZAjehjzK8xB5FFBQ4e/wtG71YXOpQMqN0ZpTQsc+UyUN5t5A/Fpf24A</DTS:Property>
             <DTS:Property
               DTS:Name="ProxyPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB2btbgzOk5mKa2dG6OcUt+UdVmWBiplFBEnyUZ5qZ91gAAAAAOgAAAAAIAACAAAACJIvsVegSmLs4uVqko7/XwzyDspQCFwbdR3WCkR/bl4hAAAACB0rEdqtdHOBVd2YVjBVZLQAAAAP5nPQtraI9GSrSfVyVJ9DUaFeCQtDp2oPUrXgzb7OWpw2tMOcPgmTT/5LMf9Ij6OI5yCet3NyRhdAjY416mDt4</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABnRDsGyEsNAgSvymJ3XD2GJ9HF+l4TXVX/7ML6RGRiywAAAAAOgAAAAAIAACAAAAAD+Yw3CVatRlFyFFf1TR8rDVUUVDue7VazBKVSirO8SBAAAAC1RRNkkiKx+I6YoE3rGEexQAAAAJMFuj+v6x1jFMSotvn5EUo80SyXGzcW3xgZTGynRpc2k+JQOX+IElmcLMH8wlBm3KcoFF5ZT+JV8WL2r//YuDo</DTS:Property>
+          </DTS:HttpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[HTTP Connection Manager 3]"
+      DTS:CreationName="HTTP"
+      DTS:DTSID="{AC0DE3F4-58EF-4A2F-BCBA-1751EBEBFE4F}"
+      DTS:ObjectName="HTTP Connection Manager 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="https://www.dataaccess.com/webservicesserver/NumberConversion.wso">
+          <DTS:HttpConnection
+            DTS:ServerURL="https://www.dataaccess.com/webservicesserver/NumberConversion.wso">
+            <DTS:Property
+              DTS:Name="ServerPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACGV6p7L6VbHeZLznuRhhrYazeYcsX0OVeAxdZyPM+FXgAAAAAOgAAAAAIAACAAAAB0P4RwZDliWrGl64/lnC66/4xshqbgLDfjy2T9UPw5ARAAAAATX/m0VxXsRw7FPzhUu/vnQAAAAPn8zV6JPfpFfmuZ/iNrXS/dQIQPPUqTkjSb4RxfqLr8bCwfJDh02vzSs+SHXvpmKx1wKlBcDHebQygeMczFbUI</DTS:Property>
+            <DTS:Property
+              DTS:Name="ProxyPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEOy8E4JyG0+3lbJ4CleYGAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADvQ+VtaEvB4w9MIkxFSoNWyZ6F0wEYa37sJekaHkqGcAAAAAAOgAAAAAIAACAAAAAszTcCosNaAoKgTc7/SVNh3bunqFpU2jD8V8yHcuNuLxAAAABP7W3IGUsEcxSJW0h1M0QTQAAAAIvTU3UTxPn1SDAaVrd5W4m1WTolsUDFIize8lIOj4lHBf1H0krH13XTxzlKSycC2q4mrkDHwnuG3toMLpdioks</DTS:Property>
           </DTS:HttpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -118,7 +141,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <WSTask:WebServiceTaskData
-          WSTask:ConnectionName="{2EDA86ED-1251-4FDE-BD36-08DD040E1C85}"
+          WSTask:ConnectionName="{AC0DE3F4-58EF-4A2F-BCBA-1751EBEBFE4F}"
           WSTask:Service="NumberConversion"
           WSTask:WSDLFile="D:\myssil\CalculatorNumberConversion\NumberConversion.wsdl"
           WSTask:OverwriteWSDLFile="True"
