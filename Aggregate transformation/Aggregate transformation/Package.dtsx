@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{152F7010-3CAE-4F78-BEBF-E3D7BE4D880E}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{73F90B0D-3E39-4875-A674-046247597C88}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -729,6 +729,14 @@
           Id="Package\Data Flow Task\Flat File Source"
           TopLeft="336.666648272012,120.466665828957" />
         <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Data Flow Task\OLE DB Destination"
+          TopLeft="341.666647998824,348.66666436447" />
+        <NodeLayout
+          Size="126.4,41.6"
+          Id="Package\Data Flow Task\Aggregate"
+          TopLeft="352.49998074025,278.199998065432" />
+        <NodeLayout
           Size="156,41.6"
           Id="Package\Data Flow Task\Data Conversion"
           TopLeft="349.999980876844,204.533331911034" />
@@ -766,10 +774,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="126.4,41.6"
-          Id="Package\Data Flow Task\Aggregate"
-          TopLeft="352.49998074025,278.199998065432" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Data Conversion Output]"
           TopLeft="427.999980876844,246.133331911034">
@@ -804,10 +808,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="341.666647998824,348.66666436447" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Aggregate Output 1]"
           TopLeft="415.69998074025,319.799998065432">

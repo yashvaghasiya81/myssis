@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{6175BAE8-B8CD-4334-912E-8BDD7BB8A497}">
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{C663C9BE-8448-4957-BAB8-A019148A2372}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -944,7 +944,7 @@ where [refTable].[CategoryID] = ?</property>
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\Data Flow Task"
-          TopLeft="267.499985384445,177.666665431195" />
+          TopLeft="268.333318672247,177.666665431195" />
         <NodeLayout
           Size="159.2,41.6"
           Id="Package\Data Flow Task 1"
@@ -962,13 +962,13 @@ where [refTable].[CategoryID] = ?</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="158.4,41.6"
-          Id="Package\Data Flow Task\Cache Transform"
-          TopLeft="349.166647589042,159.466665557755" />
-        <NodeLayout
           Size="152,41.6"
           Id="Package\Data Flow Task\OLE DB Source"
           TopLeft="343.333314574428,83.1999994214376" />
+        <NodeLayout
+          Size="158.4,41.6"
+          Id="Package\Data Flow Task\Cache Transform"
+          TopLeft="349.166647589042,159.466665557755" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
           TopLeft="419.333314574428,124.799999421438">
@@ -1025,6 +1025,10 @@ where [refTable].[CategoryID] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Data Flow Task 1\OLE DB Destination"
+          TopLeft="425.999993652105,368.999994501472" />
+        <NodeLayout
           Size="151.2,41.6"
           Id="Package\Data Flow Task 1\Flat File Source"
           TopLeft="407.999993920326,119.999998211861" />
@@ -1036,6 +1040,42 @@ where [refTable].[CategoryID] = ?</property>
           Size="156,41.6"
           Id="Package\Data Flow Task 1\Data Conversion"
           TopLeft="408.999993905425,194.999997094274" />
+        <EdgeLayout
+          Id="Package\Data Flow Task 1.Paths[Lookup Match Output]"
+          TopLeft="521.39999307096,331.599995678663">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9.79999941885467,37.3999988228082"
+              Start="0,0"
+              End="-9.79999941885467,29.8999988228082">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.6999994114041" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.6999994114041"
+                    Point2="0,18.6999994114041"
+                    Point3="-4,18.6999994114041" />
+                  <mssgle:LineSegment
+                    End="-5.79999941885467,18.6999994114041" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.79999941885467,18.6999994114041"
+                    Point2="-9.79999941885467,18.6999994114041"
+                    Point3="-9.79999941885467,22.6999994114041" />
+                  <mssgle:LineSegment
+                    End="-9.79999941885467,29.8999988228082" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-53.0913864281773,23.6999994114041,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task 1.Paths[Flat File Source Output]"
           TopLeft="485.299993912876,161.599998211861">
@@ -1092,49 +1132,22 @@ where [refTable].[CategoryID] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Data Flow Task 1\OLE DB Destination"
-          TopLeft="425.999993652105,368.999994501472" />
-        <EdgeLayout
-          Id="Package\Data Flow Task 1.Paths[Lookup Match Output]"
-          TopLeft="521.39999307096,331.599995678663">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-9.79999941885467,37.3999988228082"
-              Start="0,0"
-              End="-9.79999941885467,29.8999988228082">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,14.6999994114041" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.6999994114041"
-                    Point2="0,18.6999994114041"
-                    Point3="-4,18.6999994114041" />
-                  <mssgle:LineSegment
-                    End="-5.79999941885467,18.6999994114041" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-5.79999941885467,18.6999994114041"
-                    Point2="-9.79999941885467,18.6999994114041"
-                    Point3="-9.79999941885467,22.6999994114041" />
-                  <mssgle:LineSegment
-                    End="-9.79999941885467,29.8999988228082" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-53.0913864281773,23.6999994114041,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task 1\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task 1\Lookup">
     <Properties>
@@ -1151,23 +1164,10 @@ where [refTable].[CategoryID] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task 1\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{78663C37-6387-42BB-8EAC-CBB2AC493AD4}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{3CB145B9-0507-4F04-9BDF-4AB9DF0F3310}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -342,6 +342,7 @@
                           name="CopyFromReferenceColumn"
                           state="escaped">CustomerID</property>
                         <property
+                          containsID="true"
                           dataType="System.Null"
                           description="Specifies the lineage identifier of the input column from which to copy to this output column for each match."
                           name="SourceInputColumnLineageID" />
@@ -366,6 +367,7 @@
                           name="CopyFromReferenceColumn"
                           state="escaped">City</property>
                         <property
+                          containsID="true"
                           dataType="System.Null"
                           description="Specifies the lineage identifier of the input column from which to copy to this output column for each match."
                           name="SourceInputColumnLineageID" />
@@ -390,6 +392,7 @@
                           name="CopyFromReferenceColumn"
                           state="escaped">Country</property>
                         <property
+                          containsID="true"
                           dataType="System.Null"
                           description="Specifies the lineage identifier of the input column from which to copy to this output column for each match."
                           name="SourceInputColumnLineageID" />
@@ -854,6 +857,10 @@
           Id="Package\DFT - Fuzzy Lookup Customer Matchin\OLE DB Source"
           TopLeft="356.66664717926,70.199999511838" />
         <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\DFT - Fuzzy Lookup Customer Matchin\OLE DB Destination"
+          TopLeft="342.499981286626,225.333331766394" />
+        <NodeLayout
           Size="143.2,41.6"
           Id="Package\DFT - Fuzzy Lookup Customer Matchin\Fuzzy Lookup"
           TopLeft="349.999980876844,148.199998969436" />
@@ -891,10 +898,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\DFT - Fuzzy Lookup Customer Matchin\OLE DB Destination"
-          TopLeft="342.499981286626,225.333331766394" />
         <EdgeLayout
           Id="Package\DFT - Fuzzy Lookup Customer Matchin.Paths[Fuzzy Lookup Output]"
           TopLeft="424.849981081735,189.799998969436">
@@ -934,7 +937,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\DFT - Fuzzy Lookup Customer Matchin\Fuzzy Lookup">
+    design-time-name="Package\DFT - Fuzzy Lookup Customer Matchin\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -947,7 +950,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\DFT - Fuzzy Lookup Customer Matchin\OLE DB Destination">
+    design-time-name="Package\DFT - Fuzzy Lookup Customer Matchin\Fuzzy Lookup">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
