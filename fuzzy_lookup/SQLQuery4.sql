@@ -56,3 +56,5 @@ CREATE TABLE CustomerMatched (
     SimilarityScore FLOAT,
     ConfidenceScore FLOAT
 );
+
+SELECT * FROM CustomerMatched

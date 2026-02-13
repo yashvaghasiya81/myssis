@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{677D0534-FC37-48E3-8237-B697BD9AD734}">
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{EF8062B5-8025-41A7-858A-9405E9701F68}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1348,27 +1348,43 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="152,41.6"
-          Id="Package\DFT - Fuzzy Grouping Deduplication\OLE DB Source"
-          TopLeft="360.83331361827,75.3999994756778" />
+          Size="119.2,41.6"
+          Id="Package\DFT - Fuzzy Grouping Deduplication\Multicast"
+          TopLeft="361.904742131158,242.666664979193" />
         <NodeLayout
           Size="152,41.6"
           Id="Package\DFT - Fuzzy Grouping Deduplication\Fuzzy Grouping"
           TopLeft="354.999980603656,155.133332254556" />
+        <NodeLayout
+          Size="152,41.6"
+          Id="Package\DFT - Fuzzy Grouping Deduplication\OLE DB Source"
+          TopLeft="360.83331361827,75.3999994756778" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\DFT - Fuzzy Grouping Deduplication\OLE DB Destination"
+          TopLeft="235.714272835426,328.095235813705" />
+        <NodeLayout
+          Size="180,41.6"
+          Id="Package\DFT - Fuzzy Grouping Deduplication\OLE DB Destination 1"
+          TopLeft="469.047593419988,407.999997417132" />
+        <NodeLayout
+          Size="153.6,41.6"
+          Id="Package\DFT - Fuzzy Grouping Deduplication\Conditional Split"
+          TopLeft="464.285688918262,330.095235839534" />
         <EdgeLayout
           Id="Package\DFT - Fuzzy Grouping Deduplication.Paths[OLE DB Source Output]"
           TopLeft="433.916647110963,116.999999475678">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,38.1333327788777"
+              EndConnector="0,38.1333327788782"
               Start="0,0"
-              End="0,30.6333327788777">
+              End="0,30.6333327788782">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.6333327788777" />
+                    End="0,30.6333327788782" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1377,36 +1393,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="119.2,41.6"
-          Id="Package\DFT - Fuzzy Grouping Deduplication\Multicast"
-          TopLeft="361.904742131158,242.666664979193" />
         <EdgeLayout
-          Id="Package\DFT - Fuzzy Grouping Deduplication.Paths[Fuzzy Grouping Output]"
-          TopLeft="430.999980603656,196.733332254556">
+          Id="Package\DFT - Fuzzy Grouping Deduplication.Paths[Multicast Output 3]"
+          TopLeft="440.038075464492,284.266664979193">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-9.49523847249753,45.9333327246374"
+              EndConnector="101.047613453771,45.8285708603406"
               Start="0,0"
-              End="-9.49523847249753,38.4333327246374">
+              End="101.047613453771,38.3285708603406">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,18.9666663623187" />
+                    End="0,14.6956289072648" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,18.9666663623187"
-                    Point2="0,22.9666663623187"
-                    Point3="-4,22.9666663623187" />
+                    Point1="0,14.6956289072648"
+                    Point2="0,18.6956289072648"
+                    Point3="4,18.6956289072648" />
                   <mssgle:LineSegment
-                    End="-5.49523847249753,22.9666663623187" />
+                    End="97.0476134537707,18.6956289072648" />
                   <mssgle:CubicBezierSegment
-                    Point1="-5.49523847249753,22.9666663623187"
-                    Point2="-9.49523847249753,22.9666663623187"
-                    Point3="-9.49523847249753,26.9666663623187" />
+                    Point1="97.0476134537707,18.6956289072648"
+                    Point2="101.047613453771,18.6956289072648"
+                    Point3="101.047613453771,22.6956289072648" />
                   <mssgle:LineSegment
-                    End="-9.49523847249753,38.4333327246374" />
+                    End="101.047613453771,38.3285708603406" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1415,10 +1427,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\DFT - Fuzzy Grouping Deduplication\OLE DB Destination"
-          TopLeft="235.714272835426,328.095235813705" />
         <EdgeLayout
           Id="Package\DFT - Fuzzy Grouping Deduplication.Paths[Multicast Output 1]"
           TopLeft="421.504742131158,284.266664979193">
@@ -1453,40 +1461,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="180,41.6"
-          Id="Package\DFT - Fuzzy Grouping Deduplication\OLE DB Destination 1"
-          TopLeft="469.047593419988,407.999997417132" />
-        <NodeLayout
-          Size="153.6,41.6"
-          Id="Package\DFT - Fuzzy Grouping Deduplication\Conditional Split"
-          TopLeft="464.285688918262,330.095235839534" />
         <EdgeLayout
-          Id="Package\DFT - Fuzzy Grouping Deduplication.Paths[Multicast Output 3]"
-          TopLeft="440.038075464492,284.266664979193">
+          Id="Package\DFT - Fuzzy Grouping Deduplication.Paths[Fuzzy Grouping Output]"
+          TopLeft="430.999980603656,196.733332254556">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="101.047613453771,45.8285708603406"
+              EndConnector="-9.49523847249799,45.933332724637"
               Start="0,0"
-              End="101.047613453771,38.3285708603406">
+              End="-9.49523847249799,38.433332724637">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,14.6956289072648" />
+                    End="0,18.9666663623185" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,14.6956289072648"
-                    Point2="0,18.6956289072648"
-                    Point3="4,18.6956289072648" />
+                    Point1="0,18.9666663623185"
+                    Point2="0,22.9666663623185"
+                    Point3="-4,22.9666663623185" />
                   <mssgle:LineSegment
-                    End="97.0476134537707,18.6956289072648" />
+                    End="-5.49523847249799,22.9666663623185" />
                   <mssgle:CubicBezierSegment
-                    Point1="97.0476134537707,18.6956289072648"
-                    Point2="101.047613453771,18.6956289072648"
-                    Point3="101.047613453771,22.6956289072648" />
+                    Point1="-5.49523847249799,22.9666663623185"
+                    Point2="-9.49523847249799,22.9666663623185"
+                    Point3="-9.49523847249799,26.9666663623185" />
                   <mssgle:LineSegment
-                    End="101.047613453771,38.3285708603406" />
+                    End="-9.49523847249799,38.433332724637" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
